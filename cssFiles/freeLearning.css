@@ -1,0 +1,31 @@
+.freeLearning {
+    padding-top: 100px;
+}
+
+.freeLearningText {
+    font-family: 'Roboto';
+    font-size: 44px;
+    text-align: center;
+}
+
+.freeLearningElements {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+    padding-top: 20px;
+}
+
+.freeLearningElement {
+    border-radius: 24px;
+    background-color: white;
+    width: 528px; height: 320px;
+    text-align: left;
+}
+
+.learningIMG {
+    padding-left: 30px;
+    padding-top: 20px;
+}

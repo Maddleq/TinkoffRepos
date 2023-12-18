@@ -1,0 +1,47 @@
+.howToEnterInCourse {
+    padding-top: 100px;
+}
+.enterCourse__elements {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding-top: 50px;
+}
+
+.enterCourse__element {
+    border-radius: 24px;
+    background-color: white;
+    width: 240px; height: 160px;
+    text-align: center;
+}
+
+.enterCourse__text {
+    margin-top: -10px;
+    font-family: 'RobotoThin';
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.black__block {
+    position: relative;
+    left: 92px;
+    bottom: 28px
+}
+.enterCourse__number {
+    border-radius: 16px;
+    width: 56px;
+    height: 56px;
+    left: 92px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'RobotoThin';
+    line-height: 55px;
+    font-size: 24px;
+    font-weight: 800;
+}

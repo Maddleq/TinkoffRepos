@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: bold;
+    src: local('Roboto'), local('Roboto-Black'),
+        url('../Fonts/Roboto-Black.woff2') format('woff2'),
+        url('../Fonts/Roboto-Black.woff') format('woff'),
+        url('../Fonts/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    font-weight: bold;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Black'),
+        url('../Fonts/Roboto.woff') format('woff'),
+        url('../Fonts/Roboto.woff2') format('woff2'),
+        url('../Fonts/Roboto.ttf');
+}
+
+.header {
+    position: absolute;
+    display: block;
+    left: 0; top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.headerTexts {
+    font-family: 'RobotoThin';
+    position: absolute;
+    top: -9px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.headerLogoText{
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin-left: 15%;
+}
+.headerLogo {
+    position: absolute;
+    height: 40px; width: 40px;
+    left: 12.8%; top: 8px; 
+}
+.loginLogo {
+    position: absolute;
+    height: 15px; width: 15px;
+    right: 13%; top: 18px; 
+}
+body {
+    background-color: gainsboro;
+}
+
+.privacy__policy {
+    border-bottom: 2px solid gray;
+    width: 1104px; height: 20px;
+    margin-top: 108px; margin-left: 180px;
+}
+.privacy__policy__text {
+    font-family: 'RobotoThin';
+    font-size: 13px;
+    line-height: 20px;
+    color: gray;
+    margin-left: 180px;
+}
