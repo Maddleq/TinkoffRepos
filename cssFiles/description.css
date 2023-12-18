@@ -1,0 +1,42 @@
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 80px;
+    gap: 20px;
+}
+
+.descriptionMainText {
+    font-family: 'Roboto';
+    font-size: 44px;
+}
+
+.descriptionText {
+    font-family: 'RobotoThin';
+    font-size:  20px;
+    margin-top: -30px;
+}
+
+.descriptionLogo {
+    margin-top: 40px;
+}
+
+.button__more {
+    width: 150px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    background-color: gold;
+}
+
+.button__more:hover {
+    background-color: goldenrod;
+}
+.button__more:focus {
+    background-color: yellow;
+}
+.button__more:active {
+    background-color: orange;
+}

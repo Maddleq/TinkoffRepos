@@ -1,0 +1,26 @@
+.trainingBuilt {
+    padding-top: 100px;
+}
+
+.trainingText {
+    font-family: 'Roboto';
+    font-size: 44px;
+    text-align: center;
+}
+
+.trainingElements {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 20px;
+}
+
+.trainingElement {
+    border-radius: 24px;
+    background-color: white;
+    width: 528px; height: 212px;
+    text-align: left;
+}
